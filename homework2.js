@@ -38,7 +38,7 @@ favorites = (thing) => {
       }
     }
   
-    console.log(`Favorite food dishes: ${favoriteFoods.join(', ')}`);
+    console.log(`Favorite food dishes: ${favoriteFoods.join(', ')}.`);
   }
   
 
