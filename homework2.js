@@ -9,13 +9,13 @@ let person3 = {
     tacos:"Anything not from Taco bell",
     burgers:"Portillos Burgers",
     ice_cream:["Chocolate","Vanilla","Oreo"],
-    shakes:[{
+    shakes:{
         oberwise:"Chocolate",
         dunkin:"Vanilla",
         culvers:"All of them",
         mcDonalds:"Sham-rock-shake",
         cupids_candies:"Chocolate Malt"
-    }]
+    }
 }
 console.log(person3['pizza'])
 
