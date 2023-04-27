@@ -32,7 +32,7 @@ favorites = (thing) => {
         //if the value is an object/dictionary (shakes) try to push all the values to favoriteFoods array
       } else if (typeof value === 'object') {
         favoriteFoods.push(...Object.values(value));
-        
+        //otherwise if the value is a string or single item append/push it to favoriteFoods
       } else {
         favoriteFoods.push(value);
       }
