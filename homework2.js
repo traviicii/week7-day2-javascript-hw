@@ -115,10 +115,12 @@ howBig = (word) => {
             }
             else{reject('Big word')}
         })}
+        
+const str1 = 'thiswordissuperlong'
+const str2 = 'thisshort'
 
-console.log(howBig('thiswordissuperlong'))
-console.log(howBig('thisshort'))
-
+howBig(str1).then((result) => {console.log(result)}).catch((error) => {console.log(error)});
+howBig(str2).then((result) => {console.log(result)}).catch((error) => {console.log(error)});        
 
 // =============================================
 // Codewars Problems
@@ -163,3 +165,16 @@ opposite = (number) => {
 opposite = () => {
     return -1
 }
+
+// EXTRA PROBLEM
+// Reversed Sequence
+// https://www.codewars.com/kata/5a00e05cc374cb34d100000d/train/javascript
+
+const reverseSeq = n => {
+  let rev = []
+  while (n > 0){
+    rev.push(n);
+    n -= 1;
+  }
+  return rev;
+};
